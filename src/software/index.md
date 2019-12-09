@@ -6,6 +6,10 @@
   TensorTrace can automatically determine the optimal contraction sequence and 
   cost scaling for each network, and generate code (in MATLAB, Python or Julia languages) 
   for contracting the tensor networks numerically.
+* <a href="https://guitenet.github.io">GuiTeNet</a><br/>
+  GuiTeNet lets you construct tensor networks directly in the web browser, and
+  apply basic operations like contraction and splitting.
+  GuiTeNet simultaneously generates Python/NumPy code for these operations.
  
 ## Open Source Tensor Network Software
 
@@ -24,6 +28,11 @@
   NCON (Network Contractor) is a MATLAB routine which can be used for computing
   a broad class of tensor network diagrams in an efficient and convenient way.
   
+* <a href="https://github.com/cmendl/pytenet">PyTeNet</a> (Python)<br/>
+  PyTeNet is a didactical Python implementation of quantum tensor network operations and simulations
+  within the matrix product state/operator framework, using NumPy to handle tensors.
+  It can convert arbitrary operator chains to MPOs, and has built-in support for additive quantum numbers.\cite{pytenet}
+
 * <a href="https://quimb.readthedocs.io/en/latest/">QUIMB</a> (Python)<br/>
   python library for contracting tensors and tensor networks,
   with support for matrix product states and algorithms, and advanced
