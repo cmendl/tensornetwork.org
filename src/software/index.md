@@ -18,6 +18,14 @@
   Like many quantum chemistry packages,
   it can be used by reading parameters and instructions from a formatted input file.
 
+* <a href="https://github.com/qc-tum/chemtensor">chemtensor</a> (Python/C)<br/>
+  **chemtensor** is an efficient C implementation of tensor network algorithms for chemical systems,
+  offering a Python 3 interface for more straightforward accessibility.
+  It features the DMRG algorithm, representing molecular Hamiltonians as MPOs,
+  general MPO construction from a list of operator chains, built-in block-sparse tensors for abelian symmetries,
+  and gradient computation with respect to MPO parameters.
+  Support for non-abelian SU(2) symmetry and tree tensor networks is under development.
+
 * <a href="http://solomon2.web.engr.illinois.edu/ctf/">Cyclops Tensor Framework</a> (C++)<br/>
   This library provides automatic parallelization of operations on multidimensional 
   (sparse) arrays. Cyclops supports general tensor sparsity, so it is 
